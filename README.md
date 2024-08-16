@@ -3,7 +3,7 @@
 ## Overview
 In this project, I have analyzed the BBC News Dataset from Kaggle by conducting Data
 Preprocessing and Named Entity Recognition. I implemented Information Retrieval using TF-IDF and Word2Vec for article
-search and recommendations. Applied Topic Modeling with Linear Dirichlet Allocation (LDA) and Clustering Algorithms (KMeans, Hierarchical & DBSCAN) to identify key topics in the dataset. 
+search and recommendations. Applied Topic Modeling with Linear Dirichlet Allocation (LDA) and Clustering Algorithms (KMeans, Hierarchical & DBSCAN) to identify key topics in the dataset. Used the Hugging Face Transformers model to summarize articles in a timespan.
 
 ## Libraries Used
 
@@ -11,6 +11,7 @@ search and recommendations. Applied Topic Modeling with Linear Dirichlet Allocat
 - Scikit-Learn
 - SpaCy
 - Gensim
+- Transformers
 - Pandas
 - Scipy
 - Matplotlib
